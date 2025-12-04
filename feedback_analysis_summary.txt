@@ -1,0 +1,50 @@
+
+   -----📈Summary Statistics-----
+
+   Total Feedback: 5,000
+   Date Range: 2023-03-16 to 2024-11-04
+
+   -----Sentiment Distribution-----
+
+	positive: 40.12%
+	negative: 32.84%
+	neutral: 27.04%
+
+   -----Rating Distribution-----
+
+	5: 33.46%
+	3: 27.04%
+	1: 16.92%
+	2: 15.92%
+	4: 6.66%
+
+   -----Feedback Category Distribution-----
+
+   Delivery: 1,271 feedback (25.42%)
+   Customer Service: 1,266 feedback (25.32%)
+   Product Quality: 1,250 feedback (25.00%)
+   App Experience: 1,213 feedback (24.26%)
+
+   -----Customer Category Distribution-----
+
+   Regular: 1,320 feedback (26.40%)
+   Premium: 1,268 feedback (25.36%)
+   New: 1,222 feedback (24.44%)
+   Inactive: 1,190 feedback (23.80%)
+
+   -----Top 5 Areas by Volume-----
+
+	Orai: 44 feedback
+	Deoghar: 40 feedback
+	Gandhinagar: 37 feedback
+	Nandyal: 36 feedback
+	Ratlam: 35 feedback
+
+   -----Delivery Status Distribution-----
+
+   On Time: 3,470 feedback (69.40%)
+   Slightly Delayed: 1,037 feedback (20.74%)
+   Significantly Delayed: 493 feedback (9.86%)
+   Average Delay Duration: 4mins
+
+	✨ Analysis Complete! ✨

@@ -1,0 +1,26 @@
+Best parameters: {'estimator__C': 0.1, 'estimator__max_iter': 1000, 'estimator__penalty': 'l2', 'estimator__solver': 'lbfgs'}
+Best cross-validation score: 1.0
+Accuracy for sentiment_encoded : 1.000
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       328
+           1       1.00      1.00      1.00       271
+           2       1.00      1.00      1.00       401
+
+    accuracy                           1.00      1000
+   macro avg       1.00      1.00      1.00      1000
+weighted avg       1.00      1.00      1.00      1000
+
+Accuracy for rating : 1.000
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00       163
+           2       1.00      1.00      1.00       165
+           3       1.00      1.00      1.00       271
+           4       1.00      1.00      1.00        71
+           5       1.00      1.00      1.00       330
+
+    accuracy                           1.00      1000
+   macro avg       1.00      1.00      1.00      1000
+weighted avg       1.00      1.00      1.00      1000
+
