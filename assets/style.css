@@ -1,0 +1,127 @@
+/* Overall Dashboard */
+.ovr-board{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.075), rgba(0, 0, 0, 0.075)),
+                      url('/assets/bg.png'); 
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    border: 8px solid #f9fe63;
+}
+
+/* Main layout split into two columns */
+.vt-main {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    height: auto;
+}
+
+/* Left column where tabs sit */
+.vt-tabs-container {
+    width: 220px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.075), rgba(0, 0, 0, 0.075)),
+                      url('/assets/tab-bg.png'); 
+    color: #000000;
+    min-height: 0;
+    min-width: 0;
+}
+
+/* Force tabs to stack vertically */
+.vt-tabs-container .tab {
+    display: block !important;
+    width: 100% !important;
+}
+
+/* Default state — using your requested class */
+.vt-tab {
+    background-color: #00000000 !important;
+    color: #000000 !important;
+    text-align: left;
+    font-family: "Bahnschrift", sans-serif;
+    font-weight: bold;
+    border: 2.5px solid #000000 !important;
+}
+
+/* Selected tab — using your requested class */
+.vt-tab-selected {
+    background-color: #000000 !important;
+    color: #ffffff !important; 
+    font-family: "Bahnschrift", sans-serif;
+    border: 2.5px solid #000000 !important;
+    font-weight: bold;
+}
+
+/* Content area on the right */
+.vt-content {
+    flex-grow: 1;
+    padding: 20px;
+    height: 100vh;
+    flex-direction: column;
+    overflow: auto; 
+    min-height: 0;
+    min-width: 0;
+}
+
+/* Dropdown */
+.vt-content .Select-control,
+.vt-content .Select-placeholder,
+.vt-content .Select-value,
+.vt-content .Select-menu-outer {
+    font-family: "Bahnschrift", sans-serif;
+    font-size: 16px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.075), rgba(0, 0, 0, 0.075)),
+                      url('/assets/tab-bg.png'); 
+}
+
+/* Headers */
+h2 {
+    color: #f9f9f9 !important;
+    font-family: "Bahnschrift", sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+h3 {
+    color: #000000 !important;
+    font-family: "Bahnschrift", sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+h4 {
+    color: #f9f9f9 !important;
+    font-family: "Bahnschrift", sans-serif;
+    font-size: 20px;
+}
+
+
+/* String/Text analysis */
+.text-style {
+    white-space: pre;
+    color: #f9f9f9 !important;
+    font-size: 18px;
+    padding: 15px;
+    font-family: "Inconsolata", monospace;
+}
+.text2-style {    
+    max-height: 600px;   
+    overflow: auto;       
+    white-space: pre-wrap;
+    word-break: break-word;
+    padding: 10px;
+    font-size: 17px;
+    font-family: "Bahnschrift", sans-serif;
+    color: #f9f9f9;
+}
+.text2-style::-webkit-scrollbar {
+  width: 15px;
+}
+.text2-style::-webkit-scrollbar-track {
+  background-image: url('/assets/tab-bg.png'); 
+}
+.text2-style::-webkit-scrollbar-thumb {
+  background-color: #afb135;
+  border-radius: 5px;
+}
+.text2-style::-webkit-scrollbar-thumb:hover {
+  background-color: #717223;
+}
