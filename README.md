@@ -7,7 +7,7 @@ This project processes customer feedback data to analyze sentiment patterns usin
 ***DISCLAIMER*** 
 This project is 100% done by the author with the help of online tools, discussions and forums. This project is not copied.
 The dataset used in this project is obtained from https://www.kaggle.com/datasets/akxiit/blinkit-sales-dataset
-**END OF DISCLAIMER***
+***END OF DISCLAIMER***
 
 Aim of the project :
 1. For author to perform genereal end-to-end data science workflow process.
